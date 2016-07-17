@@ -181,7 +181,7 @@ plt.legend(loc="lower right")
 plt.show()
 # Импорт обученной на поисковых запросах Google модели w2v
 from gensim.models import word2vec
-w2v_model = word2vec.Word2Vec.load_word2vec_format("/home/m.v.surovikov/.ipython/data/google w2v/GoogleNews-vectors-negative300.bin", binary=True)
+w2v_model = word2vec.Word2Vec.load_word2vec_format", binary=True)
 # Некоторые возможности модели
 w2v_model.most_similar('skype')
 w2v_model.similarity('cat', 'dog')
